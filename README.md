@@ -7,7 +7,7 @@ Este projeto é um sistema automatizado de verificação de presença, desenvolv
 O sistema é dividido em duas camadas principais:
 
 * **Backend (`backend.py`):** O motor de processamento. Gerencia o carregamento dos modelos de Inteligência Artificial, processa a captura de imagem, detecta rostos e extrai assinaturas biométricas.
-* **Frontend (`frontend/frontend.py`):** A interface do usuário. Construída com **Streamlit**, gerencia a interação com a câmera, a exibição do painel de presença e a persistência dos dados na memória da sessão (`st.session_state`).
+* **Frontend (`frontend.py`):** A interface do usuário. Construída com **Streamlit**, gerencia a interação com a câmera, a exibição do painel de presença e a persistência dos dados na memória da sessão (`st.session_state`).
 
 ## Tecnologias Utilizadas
 
